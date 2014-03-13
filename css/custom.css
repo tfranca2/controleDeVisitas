@@ -1,0 +1,161 @@
+﻿/* Custom container */
+// * {border: 1px dotted #CCCCCC;}
+
+body{ background: url(../images/background.png)  fixed right bottom no-repeat; }
+
+ul {	list-style: none; }
+
+h3{ padding-left: 15px; }
+
+h4 {
+    background: rgb(211,46,18);
+    height: 100px;
+    color: #FFFFFF;
+    line-height: 100px;
+    padding-left: 30px;
+    text-shadow: 3px 2px 2px #000;
+	margin:0;
+	font-size: 2.3em;
+}
+
+.form {
+    width: 450px;
+    margin: auto;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	background: #FFF;
+	border:1px solid #EEE;
+}
+
+.form-large{ width: 535px;}
+
+.form form { margin: 0 5% 0 5%; }
+
+.form form label { clear:both; }
+
+.form form label .error { clear:both; color:#EB1317}
+
+.form form input, textarea { float: right; clear:both; }
+
+.form form label select { 
+float: left;
+position:none ; 
+padding-right:0px;
+background:red; 
+}
+
+.btn-group{margin-right:-20px; position:none; display:inline;}
+
+.form form input[type=checkbox]{
+    margin-right: 207px;
+}
+
+.form form input[type=submit] {
+	margin-left: 75%;
+	margin-bottom: 15px;
+	float: none;
+	display: block;
+	clear: both;
+}
+
+.form-liquid{
+}
+
+.form  form .form-liquid input[type=text]{ width: 65%; }
+.form  form .form-liquid input[type=checkbox]{ margin-right:315px;}
+.form-liquid textarea { width: 65%; }
+
+
+#container, .container, .table, .form {
+	opacity: 0.9;
+}
+
+#menu {
+	height:40px;
+	box-sizing:border-box !important;
+	line-height:35px;
+	background: #EFD390;
+	background: url('../images/menu_bg.png') repeat-x;
+	
+}
+
+#menu ul {
+	display:block;
+	width:820px;
+}
+
+#menu ul, #menu li a{
+	text-shadow: 0 0 1px #000;
+	font-weight: bold;
+	background: url('../images/menu_bg.png') repeat-x;
+}
+
+#menu ul, #menu li a:hover{
+	text-shadow: 0 0 1px #65B1DA;
+}
+
+.table {
+	background: #FFF;
+	border: 1px solid #eee;
+}
+
+/* exibição e envio de foto do visitante */
+#shell{
+    float: right;
+}
+#user, .inputFile {
+    width: 150px;
+    height: 150px;
+	overflow: hidden;
+    background: #fff;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#user img, .inputFile img  {
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+}
+.inputFile img {
+    position: absolute;
+}
+.inputFile img {
+    cursor: pointer;
+}
+#shell .inputFile input[type=file]{
+    position: relative;
+    margin-left: -1500px;
+	z-index:100;
+    font-size: 125px;
+	height: 500px;
+	background:red;
+	opacity: 0;
+    cursor: pointer;
+}
+
+#lblFoto{
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+
+.clear-none{ clear:none !important; }	
+.clear-none input, select{
+	margin-right: 15px;
+	clear:none !important;
+}	
+
+.float-right{ float: right; }
+.center img{ padding-left: 12px; }
+.margin-top-small{ margin-top: 15px !important; }
+.margin-right-small{ margin-right: 15px !important; }
+.no-margin{ margin: 0px !important; }
+.ui-helper-hidden-accessible{ display:none; }
+
+#dialog-form{overflow: hidden;}
+#vistoria_saida{ width: 300px; height: 127px;}
+.ui-dialog-titlebar-close{ 
+	background: url('../images/close.png') no-repeat; 
+	border: 0;
+}
