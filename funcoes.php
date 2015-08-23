@@ -19,10 +19,7 @@
     }
     
     function verificaLogin() {
-        if(!$_SESSION['usuario_ativo'] )
-			return false;
-		else
-			return true;
+        return (!$_SESSION['usuario_ativo'] )?false:true;
     }
 	
 	function incluiPagina($localdoarquivo) {
